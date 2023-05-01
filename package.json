@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Portable-ewaade.github.io/personal-portfolio",
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
@@ -52,5 +53,4 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
-
 }
