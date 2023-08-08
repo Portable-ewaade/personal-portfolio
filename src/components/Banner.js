@@ -10,6 +10,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
+  // eslint-disable-next-line
   const [index, setIndex] = useState(1);
   const toRotate = [ "Frontend Developer", "Web Developer", "Web Designer" ];
   const period = 2000;
@@ -20,7 +21,8 @@ export const Banner = () => {
     }, delta);
 
     return () => { clearInterval(ticker) };
-  }, [text])
+    // eslint-disable-next-line
+  }, [])
 
   const tick = () => {
     let i = loopNum % toRotate.length;
