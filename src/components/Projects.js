@@ -4,7 +4,7 @@ import projImg1 from "../assets/img/reina1.jpg";
 import projImg2 from "../assets/img/image.png";
 import projImg3 from "../assets/img/techtimal.jpg";
 import projImg4 from "../assets/img/scriby2.png";
-import projImg5 from "../assets/img/oja.webp";
+import projImg5 from "../assets/img/adventour1.png";
 import projImg6 from "../assets/img/anike.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -38,10 +38,10 @@ export const Projects = () => {
       linkUrl: "https://scriibryy.netlify.app/"
     },
     {
-      title: "Ojanow delivery",
+      title: "Adventour",
       description: "Design & Development",
       imgUrl: projImg5,
-      linkUrl: "https://ojanowapp.com"
+      linkUrl: "https://adventour-one.vercel.app/"
     },
     {
       title: "Anike kitchen",
